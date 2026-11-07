@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Describble concepts",
+  "description": "What Describble can draw, independent of language.",
+  "type": "object",
+  "required": ["concepts", "colors", "hairOnlyColors", "colorNouns", "contextual"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "about": { "type": "string" },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-zA-Z]+:[a-zA-Z0-9.]+$", "description": "slot:variant, backed by a piece in app/src/pieces.js." }
+        },
+        "additionalProperties": false
+      }
+    },
+    "colors": { "type": "array", "items": { "type": "string" } },
+    "hairOnlyColors": { "type": "array", "items": { "type": "string" } },
+    "colorNouns": { "type": "array", "items": { "type": "string" } },
+    "contextual": { "type": "array", "items": { "type": "object", "required": ["trait", "near"], "properties": { "trait": { "type": "string" }, "near": { "type": "string" } }, "additionalProperties": false } }
+  },
+  "additionalProperties": false
+}

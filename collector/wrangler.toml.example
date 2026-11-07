@@ -1,0 +1,20 @@
+# Copy to wrangler.toml (git-ignored) and fill in your own database id.
+name = "describble-word-reports"
+main = "worker.js"
+compatibility_date = "2026-05-01"
+
+# Optional: serve the collector on your own subdomain instead of workers.dev.
+routes = [{ pattern = "words.describble.com", custom_domain = true }]
+workers_dev = false
+
+# The only page allowed to report words.
+[vars]
+ALLOWED_ORIGIN = "https://describble.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "describble-words"
+database_id = "<your D1 database id>"
+
+# The export token is a secret, never written here:
+#   npx wrangler secret put EXPORT_TOKEN

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Describble dictionary language file",
+  "description": "The words of one language for the concepts in concepts.json. All words are lowercase; multi-word phrases are fine and take precedence over single words.",
+  "type": "object",
+  "required": ["language", "name", "concepts"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "language": { "type": "string", "pattern": "^[a-z]{2}$", "description": "Two-letter code, same as the file name (it.json → it)." },
+    "name": { "type": "string", "description": "The dictionary's display name, such as English." },
+    "concepts": { "$ref": "#/$defs/table", "description": "Concept id (from concepts.json) → words that mean it." },
+    "colors": { "$ref": "#/$defs/table", "description": "Colour → words for it; they colour the nearest noun." },
+    "hairOnlyColors": { "$ref": "#/$defs/table", "description": "Words that already are a hair colour (blond, redhead)." },
+    "colorNouns": { "$ref": "#/$defs/table", "description": "Nouns a colour can attach to (hair, eyes, clothes, background)." },
+    "contextual": { "$ref": "#/$defs/table", "description": "Concept → adjectives that count only next to the right noun (long hair, not a long coat)." },
+    "ignored": { "$ref": "#/$defs/words", "description": "Words that are understood but change nothing (man, person)." },
+    "negations": { "$ref": "#/$defs/words", "description": "Words that remove what follows (without, senza)." },
+    "scopeBreakers": { "$ref": "#/$defs/words", "description": "Words that end a negation (but, ma)." }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "word": { "type": "string", "minLength": 1, "pattern": "^[^A-Z\\s](.*[^\\s])?$" },
+    "words": { "type": "array", "items": { "$ref": "#/$defs/word" }, "uniqueItems": true },
+    "table": { "type": "object", "additionalProperties": { "$ref": "#/$defs/words" } }
+  }
+}

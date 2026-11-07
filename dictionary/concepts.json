@@ -1,0 +1,923 @@
+{
+  "$schema": "./schema/concepts.schema.json",
+  "about": "Drawable traits and colour rules. The words for them live in lang/en.json.",
+  "concepts": [
+    {
+      "id": "hair:short"
+    },
+    {
+      "id": "hair:long"
+    },
+    {
+      "id": "hair:spiky"
+    },
+    {
+      "id": "hair:curly"
+    },
+    {
+      "id": "hair:bald"
+    },
+    {
+      "id": "hair:ponytail"
+    },
+    {
+      "id": "hair:bun"
+    },
+    {
+      "id": "hair:mohawk"
+    },
+    {
+      "id": "hair:messy"
+    },
+    {
+      "id": "hair:braids"
+    },
+    {
+      "id": "hair:emo"
+    },
+    {
+      "id": "hair:dreads"
+    },
+    {
+      "id": "hair:afro"
+    },
+    {
+      "id": "hair:bob"
+    },
+    {
+      "id": "hair:bangs"
+    },
+    {
+      "id": "hair:quiff"
+    },
+    {
+      "id": "hair:buzz"
+    },
+    {
+      "id": "hair:pigtails"
+    },
+    {
+      "id": "hair:sidepart"
+    },
+    {
+      "id": "hair:undercut"
+    },
+    {
+      "id": "eyes:almond"
+    },
+    {
+      "id": "eyes:round"
+    },
+    {
+      "id": "ears:big"
+    },
+    {
+      "id": "ears:small"
+    },
+    {
+      "id": "ears:elf"
+    },
+    {
+      "id": "face:round"
+    },
+    {
+      "id": "face:square"
+    },
+    {
+      "id": "face:long"
+    },
+    {
+      "id": "face:pointy"
+    },
+    {
+      "id": "nose:button"
+    },
+    {
+      "id": "nose:long"
+    },
+    {
+      "id": "nose:big"
+    },
+    {
+      "id": "nose:pointy"
+    },
+    {
+      "id": "brows:thick"
+    },
+    {
+      "id": "brows:thin"
+    },
+    {
+      "id": "mood:happy"
+    },
+    {
+      "id": "mood:sad"
+    },
+    {
+      "id": "mood:angry"
+    },
+    {
+      "id": "mood:tired"
+    },
+    {
+      "id": "mood:asleep"
+    },
+    {
+      "id": "mood:surprised"
+    },
+    {
+      "id": "mood:scared"
+    },
+    {
+      "id": "mood:bored"
+    },
+    {
+      "id": "mood:smug"
+    },
+    {
+      "id": "mood:blank"
+    },
+    {
+      "id": "mood:despair"
+    },
+    {
+      "id": "mood:disgusted"
+    },
+    {
+      "id": "mouth:smile"
+    },
+    {
+      "id": "mouth:smirk"
+    },
+    {
+      "id": "mouth:frown"
+    },
+    {
+      "id": "mouth:open"
+    },
+    {
+      "id": "eyes:big"
+    },
+    {
+      "id": "eyes:small"
+    },
+    {
+      "id": "eyewear:glasses"
+    },
+    {
+      "id": "eyewear:round"
+    },
+    {
+      "id": "eyewear:monocle"
+    },
+    {
+      "id": "eyewear:sunglasses"
+    },
+    {
+      "id": "facial:beard"
+    },
+    {
+      "id": "facial:longBeard"
+    },
+    {
+      "id": "facial:stubble"
+    },
+    {
+      "id": "facial:moustache"
+    },
+    {
+      "id": "facial:goatee"
+    },
+    {
+      "id": "hat:beanie"
+    },
+    {
+      "id": "hat:cap"
+    },
+    {
+      "id": "hat:hood"
+    },
+    {
+      "id": "hat:tophat"
+    },
+    {
+      "id": "hat:cowboy"
+    },
+    {
+      "id": "hat:crown"
+    },
+    {
+      "id": "hat:generic"
+    },
+    {
+      "id": "hat:santa"
+    },
+    {
+      "id": "hat:chef"
+    },
+    {
+      "id": "hat:catEars"
+    },
+    {
+      "id": "hat:viking"
+    },
+    {
+      "id": "hat:pointy"
+    },
+    {
+      "id": "hat:beret"
+    },
+    {
+      "id": "hat:halo"
+    },
+    {
+      "id": "hat:horns"
+    },
+    {
+      "id": "hat:bandana"
+    },
+    {
+      "id": "clothes:hoodie"
+    },
+    {
+      "id": "clothes:jacket"
+    },
+    {
+      "id": "clothes:suit"
+    },
+    {
+      "id": "clothes:tshirt"
+    },
+    {
+      "id": "clothes:tank"
+    },
+    {
+      "id": "clothes:turtleneck"
+    },
+    {
+      "id": "pattern:stripes"
+    },
+    {
+      "id": "pattern:dots"
+    },
+    {
+      "id": "pattern:flowers"
+    },
+    {
+      "id": "pattern:plaid"
+    },
+    {
+      "id": "clothes:shirt"
+    },
+    {
+      "id": "clothes:sweater"
+    },
+    {
+      "id": "clothes:coat"
+    },
+    {
+      "id": "clothes:uniform"
+    },
+    {
+      "id": "detail:cigarette"
+    },
+    {
+      "id": "detail:pipe"
+    },
+    {
+      "id": "detail:earring"
+    },
+    {
+      "id": "detail:piercing"
+    },
+    {
+      "id": "detail:scar"
+    },
+    {
+      "id": "detail:freckles"
+    },
+    {
+      "id": "detail:headphones"
+    },
+    {
+      "id": "detail:tattoo"
+    },
+    {
+      "id": "detail:bags"
+    },
+    {
+      "id": "detail:mask"
+    },
+    {
+      "id": "detail:eyepatch"
+    },
+    {
+      "id": "detail:wrinkles"
+    },
+    {
+      "id": "detail:scarf"
+    },
+    {
+      "id": "detail:tears"
+    },
+    {
+      "id": "detail:sweat"
+    },
+    {
+      "id": "detail:bandaid"
+    },
+    {
+      "id": "detail:clownNose"
+    },
+    {
+      "id": "detail:tie"
+    },
+    {
+      "id": "detail:sideburns"
+    },
+    {
+      "id": "detail:acne"
+    },
+    {
+      "id": "detail:unibrow"
+    },
+    {
+      "id": "detail:lipstick"
+    },
+    {
+      "id": "detail:necklace"
+    },
+    {
+      "id": "gender:female"
+    },
+    {
+      "id": "hair:wavyLong"
+    },
+    {
+      "id": "hair:spaceBuns"
+    },
+    {
+      "id": "hair:pixie"
+    },
+    {
+      "id": "hair:sidePonytail"
+    },
+    {
+      "id": "hat:pompom"
+    },
+    {
+      "id": "hat:capBack"
+    },
+    {
+      "id": "hat:hijab"
+    },
+    {
+      "id": "hat:turban"
+    },
+    {
+      "id": "hat:bunnyEars"
+    },
+    {
+      "id": "hat:foxEars"
+    },
+    {
+      "id": "hat:flowers"
+    },
+    {
+      "id": "hat:alice"
+    },
+    {
+      "id": "eyewear:pixel"
+    },
+    {
+      "id": "eyewear:vr"
+    },
+    {
+      "id": "eyewear:visor"
+    },
+    {
+      "id": "clothes:dress"
+    },
+    {
+      "id": "clothes:armor"
+    },
+    {
+      "id": "print:code"
+    },
+    {
+      "id": "print:heart"
+    },
+    {
+      "id": "print:star"
+    },
+    {
+      "id": "print:skull"
+    },
+    {
+      "id": "print:lightning"
+    },
+    {
+      "id": "detail:headset"
+    },
+    {
+      "id": "detail:cyborg"
+    },
+    {
+      "id": "detail:ninja"
+    },
+    {
+      "id": "detail:warpaint"
+    },
+    {
+      "id": "detail:beautyMark"
+    },
+    {
+      "id": "detail:choker"
+    },
+    {
+      "id": "detail:gauges"
+    },
+    {
+      "id": "detail:helix"
+    },
+    {
+      "id": "detail:industrial"
+    },
+    {
+      "id": "detail:septum"
+    },
+    {
+      "id": "detail:browPiercing"
+    },
+    {
+      "id": "detail:bridgePiercing"
+    },
+    {
+      "id": "detail:lipRing"
+    },
+    {
+      "id": "detail:labret"
+    },
+    {
+      "id": "detail:monroe"
+    },
+    {
+      "id": "detail:nostril"
+    },
+    {
+      "id": "clothes:tracksuit"
+    },
+    {
+      "id": "eyewear:reading"
+    },
+    {
+      "id": "detail:curlers"
+    },
+    {
+      "id": "clothes:clerical"
+    },
+    {
+      "id": "hat:helmet"
+    },
+    {
+      "id": "hat:bowler"
+    },
+    {
+      "id": "hat:graduation"
+    },
+    {
+      "id": "hat:veil"
+    },
+    {
+      "id": "detail:braces"
+    },
+    {
+      "id": "detail:backpack"
+    },
+    {
+      "id": "detail:stethoscope"
+    },
+    {
+      "id": "detail:hoops"
+    },
+    {
+      "id": "detail:bow"
+    },
+    {
+      "id": "detail:hairclip"
+    },
+    {
+      "id": "detail:cape"
+    },
+    {
+      "id": "detail:lashes"
+    },
+    {
+      "id": "detail:eyeshadow"
+    },
+    {
+      "id": "detail:fangs"
+    },
+    {
+      "id": "skin:green"
+    },
+    {
+      "id": "skin:blue"
+    },
+    {
+      "id": "skin:grey"
+    },
+    {
+      "id": "skin:purple"
+    },
+    {
+      "id": "eyewear:eyepatch"
+    },
+    {
+      "id": "hairColor:white"
+    },
+    {
+      "id": "hatColor:black"
+    },
+    {
+      "id": "clothesColor:black"
+    },
+    {
+      "id": "detail:gum"
+    },
+    {
+      "id": "detail:lollipop"
+    },
+    {
+      "id": "detail:toothpick"
+    },
+    {
+      "id": "detail:rose"
+    },
+    {
+      "id": "detail:bowtie"
+    },
+    {
+      "id": "detail:badge"
+    },
+    {
+      "id": "detail:pencilEar"
+    },
+    {
+      "id": "detail:flowerEar"
+    },
+    {
+      "id": "detail:sunglassesHead"
+    },
+    {
+      "id": "detail:earbuds"
+    },
+    {
+      "id": "face:heart"
+    },
+    {
+      "id": "face:wide"
+    },
+    {
+      "id": "brows:raised"
+    },
+    {
+      "id": "detail:doubleChin"
+    },
+    {
+      "id": "detail:dimples"
+    },
+    {
+      "id": "detail:cheekbones"
+    },
+    {
+      "id": "clothesColor:blue"
+    },
+    {
+      "id": "hatColor:blue"
+    },
+    {
+      "id": "hairColor:black"
+    },
+    {
+      "id": "hairColor:blond"
+    },
+    {
+      "id": "clothesColor:green"
+    },
+    {
+      "id": "hatColor:yellow"
+    },
+    {
+      "id": "clothesColor:red"
+    },
+    {
+      "id": "hairColor:grey"
+    },
+    {
+      "id": "hair:mullet"
+    },
+    {
+      "id": "hair:middlePart"
+    },
+    {
+      "id": "hair:shag"
+    },
+    {
+      "id": "hair:highPonytail"
+    },
+    {
+      "id": "hair:afroPuffs"
+    },
+    {
+      "id": "hat:bucket"
+    },
+    {
+      "id": "hat:party"
+    },
+    {
+      "id": "hat:fedora"
+    },
+    {
+      "id": "eyewear:hearts"
+    },
+    {
+      "id": "detail:earmuffs"
+    },
+    {
+      "id": "facial:handlebar"
+    },
+    {
+      "id": "clothes:overalls"
+    },
+    {
+      "id": "clothes:puffer"
+    },
+    {
+      "id": "clothes:polo"
+    },
+    {
+      "id": "clothes:vest"
+    },
+    {
+      "id": "clothes:apron"
+    },
+    {
+      "id": "clothes:varsity"
+    },
+    {
+      "id": "clothes:openShirt"
+    },
+    {
+      "id": "eyewear:slim"
+    },
+    {
+      "id": "age:child"
+    },
+    {
+      "id": "age:young"
+    },
+    {
+      "id": "age:old"
+    },
+    {
+      "id": "skin:dark"
+    },
+    {
+      "id": "skin:tan"
+    },
+    {
+      "id": "skin:pale"
+    },
+    {
+      "id": "hair:lob"
+    },
+    {
+      "id": "hair:lowPonytail"
+    },
+    {
+      "id": "hair:bantuKnots"
+    },
+    {
+      "id": "hair:cornrows"
+    },
+    {
+      "id": "hair:widowsPeak"
+    },
+    {
+      "id": "face:oval"
+    },
+    {
+      "id": "nose:hook"
+    },
+    {
+      "id": "mood:excited"
+    },
+    {
+      "id": "mood:worried"
+    },
+    {
+      "id": "facial:soulPatch"
+    },
+    {
+      "id": "facial:pencilMoustache"
+    },
+    {
+      "id": "facial:braidedBeard"
+    },
+    {
+      "id": "eyewear:catEye"
+    },
+    {
+      "id": "eyewear:halfRim"
+    },
+    {
+      "id": "eyewear:aviators"
+    },
+    {
+      "id": "eyewear:goggles"
+    },
+    {
+      "id": "hat:trapper"
+    },
+    {
+      "id": "hat:spaceHelmet"
+    },
+    {
+      "id": "hat:bikeHelmet"
+    },
+    {
+      "id": "hat:crestedHelmet"
+    },
+    {
+      "id": "hat:sunHat"
+    },
+    {
+      "id": "hat:rainHat"
+    },
+    {
+      "id": "hat:flatCap"
+    },
+    {
+      "id": "hat:boater"
+    },
+    {
+      "id": "hat:bearEars"
+    },
+    {
+      "id": "hat:antlers"
+    },
+    {
+      "id": "hat:kippah"
+    },
+    {
+      "id": "hat:sailor"
+    },
+    {
+      "id": "clothes:spaceSuit"
+    },
+    {
+      "id": "clothes:cardigan"
+    },
+    {
+      "id": "clothes:raincoat"
+    },
+    {
+      "id": "clothes:windbreaker"
+    },
+    {
+      "id": "clothes:scrubs"
+    },
+    {
+      "id": "clothes:gown"
+    },
+    {
+      "id": "pattern:argyle"
+    },
+    {
+      "id": "pattern:checkers"
+    },
+    {
+      "id": "pattern:fishnet"
+    },
+    {
+      "id": "pattern:camo"
+    },
+    {
+      "id": "detail:pearlStuds"
+    },
+    {
+      "id": "detail:pearlNecklace"
+    },
+    {
+      "id": "detail:camera"
+    },
+    {
+      "id": "detail:lanyard"
+    },
+    {
+      "id": "detail:headlamp"
+    },
+    {
+      "id": "detail:hearingAid"
+    },
+    {
+      "id": "detail:locket"
+    },
+    {
+      "id": "detail:boloTie"
+    },
+    {
+      "id": "detail:blush"
+    },
+    {
+      "id": "detail:sunburn"
+    },
+    {
+      "id": "detail:chinCleft"
+    },
+    {
+      "id": "detail:faceStars"
+    },
+    {
+      "id": "skin:olive"
+    },
+    {
+      "id": "skin:deep"
+    },
+    {
+      "id": "clothes:sailorShirt"
+    },
+    {
+      "id": "pattern:pinstripes"
+    },
+    {
+      "id": "detail:lapelPin"
+    },
+    {
+      "id": "detail:nameTag"
+    }
+  ],
+  "colors": [
+    "black",
+    "white",
+    "grey",
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "hazel",
+    "amber"
+  ],
+  "hairOnlyColors": [
+    "blond",
+    "brown",
+    "grey",
+    "red"
+  ],
+  "colorNouns": [
+    "background",
+    "hair",
+    "eye",
+    "clothes",
+    "skin"
+  ],
+  "contextual": [
+    {
+      "trait": "hair:long",
+      "near": "hair"
+    },
+    {
+      "trait": "clothes:openShirt",
+      "near": "clothes:shirt"
+    },
+    {
+      "trait": "hair:short",
+      "near": "hair"
+    },
+    {
+      "trait": "eyes:big",
+      "near": "eye"
+    },
+    {
+      "trait": "eyes:small",
+      "near": "eye"
+    },
+    {
+      "trait": "eyes:almond",
+      "near": "eye"
+    },
+    {
+      "trait": "eyes:round",
+      "near": "eye"
+    },
+    {
+      "trait": "facial:longBeard",
+      "near": "facial:beard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vignette",
+  "version": "0.4.5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node build.mjs && node server.mjs",
+    "build": "node build.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT",
+  "description": "Hand-drawn avatars from a sentence, drawn live in the browser."
+}

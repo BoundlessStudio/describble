@@ -1,0 +1,26 @@
+name: Drawn wrong
+description: Vignette understood your words but drew something different.
+labels: [drawing]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks! Only what you write here is shared. Please do not include personal details.
+  - type: input
+    id: text
+    attributes:
+      label: What you wrote
+      placeholder: open black shirt, slim sunglasses
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what you got
+      description: A screenshot or the downloaded PNG helps a lot.
+    validations:
+      required: true
+  - type: dropdown
+    id: page
+    attributes:
+      label: Page
+      options: [Live page, Chat page]

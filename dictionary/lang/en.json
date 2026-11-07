@@ -1,0 +1,2536 @@
+{
+  "$schema": "../schema/language.schema.json",
+  "language": "en",
+  "name": "English",
+  "concepts": {
+    "hair:short": [
+      "short hair",
+      "short haircut",
+      "short haired",
+      "cropped hair",
+      "short cut",
+      "short crop",
+      "close cropped hair"
+    ],
+    "hair:long": [
+      "long hair",
+      "witch",
+      "queen",
+      "princess",
+      "elf",
+      "rocker",
+      "long haired",
+      "longhair",
+      "shoulder length hair",
+      "waist length hair",
+      "flowing hair",
+      "long flowing hair"
+    ],
+    "hair:spiky": [
+      "spiky",
+      "spikes",
+      "spiked hair",
+      "spikey",
+      "spikey hair",
+      "anime hair",
+      "gelled spikes"
+    ],
+    "hair:curly": [
+      "perm",
+      "permed",
+      "afro",
+      "curly",
+      "curls",
+      "wavy",
+      "clown",
+      "angel",
+      "curly haired",
+      "ringlets",
+      "coily",
+      "coily hair",
+      "frizzy",
+      "frizzy hair",
+      "coils",
+      "corkscrew curls"
+    ],
+    "hair:bald": [
+      "bald",
+      "shaved head",
+      "grandpa",
+      "balding",
+      "bald head",
+      "hairless",
+      "baldie",
+      "chrome dome",
+      "bold",
+      "close shave",
+      "bald crown"
+    ],
+    "hair:ponytail": [
+      "ponytail",
+      "pony tail",
+      "ponytailed"
+    ],
+    "hair:bun": [
+      "chignon",
+      "bun",
+      "top knot",
+      "grandma",
+      "man bun",
+      "top bun",
+      "tied up hair",
+      "hair bun",
+      "topknot",
+      "loose topknot"
+    ],
+    "hair:mohawk": [
+      "mohawk",
+      "mohican",
+      "punk",
+      "fauxhawk",
+      "faux hawk",
+      "punk hair",
+      "liberty spike mohawk"
+    ],
+    "hair:messy": [
+      "messy",
+      "unkempt",
+      "tousled",
+      "crazy hair",
+      "zombie",
+      "scientist",
+      "bed head",
+      "bedhead",
+      "unkempt hair",
+      "tousled hair",
+      "scruffy hair",
+      "disheveled",
+      "windblown",
+      "windswept",
+      "wind blown hair",
+      "blown hair"
+    ],
+    "hair:braids": [
+      "braids",
+      "braid",
+      "braided hair",
+      "plaits",
+      "plait",
+      "box braids",
+      "french braids"
+    ],
+    "hair:emo": [
+      "emo",
+      "side fringe",
+      "side bangs",
+      "emo fringe",
+      "scene hair"
+    ],
+    "hair:dreads": [
+      "dread",
+      "dreads",
+      "dreadlocks",
+      "locs"
+    ],
+    "hair:afro": [
+      "afro",
+      "big afro",
+      "fro"
+    ],
+    "hair:bob": [
+      "bob",
+      "bob cut",
+      "bob haircut",
+      "chin length hair",
+      "chin length bob",
+      "pageboy bob",
+      "bowl cut bob",
+      "neat chin length bob"
+    ],
+    "hair:bangs": [
+      "bangs",
+      "fringe",
+      "straight bangs",
+      "blunt bangs",
+      "blunt fringe",
+      "straight across bangs"
+    ],
+    "hair:quiff": [
+      "banana",
+      "pompadour",
+      "quiff",
+      "chad",
+      "rockabilly hair",
+      "greaser hair",
+      "close cropped quiff"
+    ],
+    "hair:buzz": [
+      "buzz cut",
+      "crew cut",
+      "buzzcut",
+      "soldier",
+      "buzzed",
+      "buzzed hair",
+      "army cut",
+      "clipper crop"
+    ],
+    "hair:pigtails": [
+      "pigtails",
+      "twin tails",
+      "twin tail",
+      "bunches",
+      "hair in bunches"
+    ],
+    "hair:sidepart": [
+      "parted hair",
+      "parted on the side",
+      "side part",
+      "slicked",
+      "combed",
+      "vampire",
+      "slicked back hair"
+    ],
+    "hair:undercut": [
+      "undercut",
+      "shaved sides",
+      "half shaved",
+      "half shaved head",
+      "half-shaved",
+      "shaved on one side",
+      "side shave",
+      "cyberpunk"
+    ],
+    "eyes:almond": [
+      "almond eyes",
+      "narrow eyes",
+      "almond shaped eyes",
+      "cat eyes"
+    ],
+    "eyes:round": [
+      "round eyes",
+      "doe eyes"
+    ],
+    "ears:big": [
+      "big ears",
+      "large ears",
+      "sticking out ears",
+      "jug ears",
+      "protruding ears"
+    ],
+    "ears:small": [
+      "small ears",
+      "tiny ears"
+    ],
+    "ears:elf": [
+      "elf ears",
+      "pointy ears",
+      "elf",
+      "elven",
+      "elvish",
+      "pointed ears",
+      "pointed elf ears"
+    ],
+    "face:round": [
+      "round face",
+      "chubby",
+      "chubby face",
+      "full face",
+      "baby face",
+      "round cheeks",
+      "round baby face"
+    ],
+    "face:square": [
+      "square jaw",
+      "square face",
+      "strong jaw",
+      "chad",
+      "buff",
+      "muscular",
+      "jacked",
+      "jawline",
+      "chiseled",
+      "strong chin",
+      "square chin",
+      "defined jaw",
+      "defined jawline",
+      "strong square jaw"
+    ],
+    "face:long": [
+      "skinny",
+      "slim",
+      "thin",
+      "thin face",
+      "long face",
+      "oblong face",
+      "narrow face"
+    ],
+    "face:pointy": [
+      "pointy chin",
+      "sharp chin",
+      "pointed chin"
+    ],
+    "nose:button": [
+      "button nose",
+      "small nose",
+      "cute nose",
+      "tiny nose",
+      "round nose",
+      "snub nose",
+      "small round nose"
+    ],
+    "nose:long": [
+      "long nose"
+    ],
+    "nose:big": [
+      "big nose",
+      "large nose",
+      "huge nose",
+      "schnoz",
+      "schnozz",
+      "bulbous nose",
+      "protruding nose",
+      "big nouse",
+      "large nouse",
+      "huge nouse",
+      "prominent nose",
+      "big round nose"
+    ],
+    "nose:pointy": [
+      "pointy nose",
+      "sharp nose",
+      "pointed nose",
+      "long pointed nose"
+    ],
+    "brows:thick": [
+      "bushy eyebrows",
+      "thick eyebrows",
+      "thick brows",
+      "bushy brows",
+      "big eyebrows",
+      "bold eyebrows",
+      "bold brows",
+      "furrowed brows"
+    ],
+    "brows:thin": [
+      "thin eyebrows",
+      "thin brows",
+      "plucked eyebrows",
+      "pencil thin brows",
+      "extra thin eyebrows"
+    ],
+    "mood:happy": [
+      "happy",
+      "cheerful",
+      "joyful",
+      "glad",
+      "ride",
+      "laughing",
+      "laughs",
+      "bloomer",
+      "jolly",
+      "delighted",
+      "in a good mood",
+      "excited",
+      "thrilled",
+      "enthusiastic",
+      "open mouthed grin",
+      "beaming grin"
+    ],
+    "mood:sad": [
+      "sad",
+      "crying",
+      "gloomy",
+      "depressed",
+      "melancholic",
+      "miserable",
+      "unhappy",
+      "upset",
+      "heartbroken"
+    ],
+    "mood:angry": [
+      "angry",
+      "mad",
+      "furious",
+      "mean",
+      "grumpy",
+      "looks mean",
+      "annoyed",
+      "pissed",
+      "irritated",
+      "raging",
+      "fuming",
+      "disapproving scowl",
+      "intense scowl"
+    ],
+    "mood:tired": [
+      "tired",
+      "sleepy",
+      "exhausted",
+      "worn out",
+      "drowsy",
+      "half closed eyes",
+      "half open eyes",
+      "stoned",
+      "dead tired",
+      "burnt out",
+      "burned out",
+      "sleep deprived",
+      "drugged",
+      "sleepy lids",
+      "heavy lidded eyes"
+    ],
+    "mood:asleep": [
+      "asleep",
+      "sleeping",
+      "eyes closed",
+      "closed eyes",
+      "napping",
+      "dozing",
+      "sleeping face"
+    ],
+    "mood:surprised": [
+      "surprised",
+      "shocked",
+      "astonished",
+      "amazed",
+      "stunned",
+      "startled gasp",
+      "startled expression"
+    ],
+    "mood:scared": [
+      "scared",
+      "afraid",
+      "frightened",
+      "terrified",
+      "spooked",
+      "horrified",
+      "frightened look"
+    ],
+    "mood:bored": [
+      "bored",
+      "apathetic",
+      "unimpressed",
+      "deadpan",
+      "uninterested",
+      "meh"
+    ],
+    "mood:smug": [
+      "smug",
+      "sarcastic",
+      "cocky",
+      "sly",
+      "chad",
+      "pleased with himself",
+      "self satisfied",
+      "arrogant",
+      "confident",
+      "self confident",
+      "cocky half smile"
+    ],
+    "mood:blank": [
+      "thousand yard stare",
+      "blank stare",
+      "blank",
+      "dead inside",
+      "expressionless",
+      "doomer",
+      "poker face",
+      "emotionless",
+      "vacant stare"
+    ],
+    "mood:despair": [
+      "despair",
+      "desperate",
+      "sobbing",
+      "wailing",
+      "hopeless",
+      "devastated"
+    ],
+    "mood:disgusted": [
+      "disgusted",
+      "grossed out",
+      "disgust",
+      "eww"
+    ],
+    "mouth:smile": [
+      "ride",
+      "smile",
+      "smiling",
+      "grin",
+      "grinning",
+      "laughing",
+      "laughs",
+      "chill",
+      "relaxed",
+      "friendly",
+      "gentile",
+      "kind",
+      "smiley",
+      "big smile",
+      "crescent smile",
+      "gentle smile",
+      "beaming grin"
+    ],
+    "mouth:smirk": [
+      "smirk",
+      "smirking",
+      "crooked smile",
+      "half smile",
+      "sly smile",
+      "devilish",
+      "devilish smile",
+      "devilish grin",
+      "evil grin",
+      "crooked grin",
+      "cocky half smile"
+    ],
+    "mouth:frown": [
+      "frown",
+      "frowning",
+      "pout",
+      "scowl",
+      "pouting",
+      "firm frown",
+      "narrow frown",
+      "disapproving scowl",
+      "intense scowl"
+    ],
+    "mouth:open": [
+      "open mouth",
+      "mouth open",
+      "wide open",
+      "screaming",
+      "yelling",
+      "shouting",
+      "startled gasp",
+      "open mouthed grin"
+    ],
+    "eyes:big": [
+      "big eyes",
+      "large eyes",
+      "wide eyes",
+      "alien",
+      "cute",
+      "anime",
+      "sparkly",
+      "sparkling",
+      "huge eyes",
+      "anime eyes",
+      "doe eyes",
+      "wide eyed",
+      "wide open eyes",
+      "oversized eyes"
+    ],
+    "eyes:small": [
+      "small eyes",
+      "beady eyes",
+      "tiny eyes",
+      "bead like eyes"
+    ],
+    "eyewear:glasses": [
+      "thick glasses",
+      "glasses",
+      "spectacles",
+      "specs",
+      "programmer",
+      "scientist",
+      "grandpa",
+      "grandma",
+      "framed glasses",
+      "prescription glasses",
+      "eyeglasses",
+      "nerd glasses",
+      "rimmed glasses",
+      "bespectacled",
+      "four eyes",
+      "rectangular spectacles",
+      "square frames",
+      "rectangle glasses"
+    ],
+    "eyewear:round": [
+      "round glasses",
+      "harry potter",
+      "hipster",
+      "nerd",
+      "nerdy",
+      "circle glasses",
+      "harry potter glasses",
+      "round wire frames",
+      "round specs",
+      "clear round specs"
+    ],
+    "eyewear:monocle": [
+      "monocle",
+      "eyeglass",
+      "single lens"
+    ],
+    "eyewear:sunglasses": [
+      "sunglasses",
+      "shades",
+      "hacker",
+      "rocker",
+      "rapper",
+      "trapper",
+      "boss",
+      "sun glasses",
+      "dark glasses",
+      "cool glasses",
+      "aviator glasses",
+      "wayfarers"
+    ],
+    "facial:beard": [
+      "beard",
+      "bearded",
+      "woodchopper",
+      "hipster",
+      "lumberjack",
+      "woodcutter",
+      "full beard",
+      "bearded man",
+      "beardy",
+      "thick beard",
+      "whiskers",
+      "boxed beard",
+      "tidy boxed beard"
+    ],
+    "facial:longBeard": [
+      "long beard",
+      "big beard",
+      "wizard beard",
+      "wizard",
+      "santa",
+      "huge beard",
+      "viking beard"
+    ],
+    "facial:stubble": [
+      "stubble",
+      "five o clock shadow",
+      "unshaven",
+      "chad",
+      "scruffy beard",
+      "scruff",
+      "short beard",
+      "five o'clock stubble"
+    ],
+    "facial:moustache": [
+      "mustache",
+      "grandpa",
+      "big mustache",
+      "mustached",
+      "moustached",
+      "tache",
+      "pornstache",
+      "chevron moustache",
+      "chevron mustache"
+    ],
+    "facial:goatee": [
+      "goatee",
+      "goatee beard",
+      "chin beard",
+      "tiny chin beard",
+      "chin tuft"
+    ],
+    "hat:beanie": [
+      "thief",
+      "burglar",
+      "sailor",
+      "fisherman",
+      "beanie",
+      "wool hat",
+      "knit hat",
+      "hipster",
+      "doomer",
+      "lumberjack",
+      "woodcutter",
+      "toque",
+      "winter hat",
+      "knitted hat",
+      "skull cap",
+      "watch cap",
+      "ribbed beanie",
+      "slouch beanie",
+      "cuffed beanie"
+    ],
+    "hat:cap": [
+      "cap",
+      "baseball cap",
+      "cop",
+      "police",
+      "baseball hat",
+      "ball cap",
+      "trucker hat",
+      "trucker cap",
+      "snapback",
+      "dad hat"
+    ],
+    "hat:hood": [
+      "hood",
+      "hooded",
+      "hacker",
+      "mysterious",
+      "hood up",
+      "hooded sweatshirt"
+    ],
+    "hat:tophat": [
+      "top hat",
+      "stovepipe hat",
+      "magician hat"
+    ],
+    "hat:cowboy": [
+      "cowboy hat",
+      "cowboy",
+      "ten gallon hat",
+      "western hat"
+    ],
+    "hat:crown": [
+      "crown",
+      "tiara",
+      "queen",
+      "princess",
+      "re",
+      "king",
+      "prince",
+      "royal crown",
+      "coronet"
+    ],
+    "hat:generic": [
+      "hat",
+      "detective",
+      "sherlock",
+      "gangster",
+      "farmer",
+      "headwear"
+    ],
+    "hat:santa": [
+      "santa hat",
+      "santa",
+      "christmas hat",
+      "xmas hat"
+    ],
+    "hat:chef": [
+      "chef",
+      "chef hat",
+      "toque blanche",
+      "cook hat",
+      "cook",
+      "chef toque",
+      "chef's toque"
+    ],
+    "hat:catEars": [
+      "cat ears",
+      "kitty ears",
+      "cat ear headband",
+      "kitty ear headband"
+    ],
+    "hat:viking": [
+      "viking",
+      "viking helmet",
+      "horned helmet"
+    ],
+    "hat:pointy": [
+      "pointy hat",
+      "witch hat",
+      "wizard hat",
+      "wizard",
+      "witch",
+      "pointed hat",
+      "sorcerer"
+    ],
+    "hat:beret": [
+      "beret",
+      "painter",
+      "artist",
+      "french beret",
+      "artist hat",
+      "wool beret"
+    ],
+    "hat:halo": [
+      "halo",
+      "angel",
+      "floating halo"
+    ],
+    "hat:horns": [
+      "horns",
+      "devil"
+    ],
+    "hat:bandana": [
+      "bandana",
+      "biker",
+      "headband",
+      "pirate",
+      "ninja",
+      "head bandana",
+      "do rag",
+      "durag"
+    ],
+    "clothes:hoodie": [
+      "hoodie",
+      "developer",
+      "dev",
+      "coder",
+      "programmer",
+      "gamer",
+      "doomer",
+      "hooded top",
+      "pullover hoodie",
+      "zip hoodie"
+    ],
+    "clothes:jacket": [
+      "jacket",
+      "blazer",
+      "bomber",
+      "biker",
+      "punk",
+      "rocker",
+      "studs",
+      "leather jacket",
+      "studded",
+      "biker jacket",
+      "jean jacket",
+      "bomber jacket",
+      "windbreaker",
+      "flight jacket",
+      "chore jacket"
+    ],
+    "clothes:suit": [
+      "smoking",
+      "suit",
+      "tuxedo",
+      "gangster",
+      "boss",
+      "elegant",
+      "classy",
+      "business suit",
+      "three piece suit",
+      "formal wear"
+    ],
+    "clothes:tshirt": [
+      "t shirt",
+      "tee",
+      "footballer",
+      "soccer player",
+      "jersey",
+      "skater",
+      "t-shirt",
+      "tshirt",
+      "tee shirt",
+      "graphic tee",
+      "crew neck tee"
+    ],
+    "clothes:tank": [
+      "tank top",
+      "sleeveless",
+      "buff",
+      "muscular",
+      "jacked",
+      "sleeveless shirt",
+      "wife beater",
+      "singlet",
+      "muscle shirt",
+      "camisole",
+      "cami",
+      "scoop neck top",
+      "sleeveless jersey"
+    ],
+    "pattern:stripes": [
+      "thief",
+      "burglar",
+      "sailor",
+      "pajamas",
+      "pyjamas",
+      "pjs",
+      "striped",
+      "stripes",
+      "stripy",
+      "breton top"
+    ],
+    "pattern:dots": [
+      "polka dots",
+      "polka dot",
+      "dotted",
+      "polka dotted",
+      "spotty"
+    ],
+    "pattern:flowers": [
+      "floral",
+      "flowers",
+      "hawaiian",
+      "flowery",
+      "flower print",
+      "floral print"
+    ],
+    "pattern:plaid": [
+      "checked",
+      "check shirt",
+      "plaid",
+      "checkered",
+      "flannel",
+      "tartan",
+      "farmer",
+      "lumberjack",
+      "woodcutter",
+      "gingham"
+    ],
+    "clothes:shirt": [
+      "blouse",
+      "blouses",
+      "buttonup",
+      "button-up",
+      "pajamas",
+      "pyjamas",
+      "pjs",
+      "shirt",
+      "button up",
+      "farmer",
+      "lumberjack",
+      "woodcutter",
+      "collared shirt",
+      "button down",
+      "dress shirt",
+      "western shirt",
+      "collared top",
+      "breton top"
+    ],
+    "clothes:sweater": [
+      "sweater",
+      "jumper",
+      "wool sweater",
+      "knit sweater",
+      "sweatshirt",
+      "pullover",
+      "crewneck",
+      "crewneck sweater"
+    ],
+    "clothes:coat": [
+      "trench",
+      "coat",
+      "overcoat",
+      "detective",
+      "sherlock",
+      "trench coat",
+      "trenchcoat",
+      "winter coat",
+      "peacoat",
+      "outerwear",
+      "double breasted coat",
+      "leather coat"
+    ],
+    "clothes:uniform": [
+      "uniform",
+      "lab coat",
+      "scrubs",
+      "fireman",
+      "pilot",
+      "dentist",
+      "scientist",
+      "doctor",
+      "nurse",
+      "cop",
+      "police",
+      "soldier",
+      "medical uniform"
+    ],
+    "detail:cigarette": [
+      "cigarette",
+      "cigar",
+      "smoking a",
+      "smokes",
+      "doomer",
+      "gangster",
+      "smoker",
+      "ciggy",
+      "cig",
+      "fag in mouth",
+      "vape"
+    ],
+    "detail:pipe": [
+      "pipe",
+      "detective",
+      "sherlock",
+      "tobacco pipe",
+      "smoking pipe",
+      "pipe smoker"
+    ],
+    "detail:earring": [
+      "earring",
+      "earrings",
+      "cross earring",
+      "cross earrings",
+      "triangle earring",
+      "triangle earrings",
+      "single ear hoop"
+    ],
+    "detail:piercing": [
+      "piercing",
+      "nose ring",
+      "punk",
+      "pierced",
+      "lots of piercings",
+      "many piercings",
+      "heavily pierced",
+      "nose hoop"
+    ],
+    "detail:scar": [
+      "scar",
+      "scarred",
+      "battle scar",
+      "facial scar",
+      "forehead scar",
+      "scar on forehead",
+      "stitched cheek scar",
+      "faint cheek scar"
+    ],
+    "detail:freckles": [
+      "freckles",
+      "freckled",
+      "bloomer",
+      "freckly",
+      "sun spots",
+      "sprinkling of freckles",
+      "dusting of freckles"
+    ],
+    "detail:headphones": [
+      "headphones",
+      "headset",
+      "over ear headphones",
+      "big headphones",
+      "cans"
+    ],
+    "detail:tattoo": [
+      "tattoo",
+      "tattoos",
+      "tattooed",
+      "trapper",
+      "tatted",
+      "inked",
+      "neck tattoo",
+      "star tattoo"
+    ],
+    "detail:bags": [
+      "bags under",
+      "dark circles",
+      "eye bags",
+      "zombie",
+      "doomer",
+      "bags under the eyes",
+      "baggy eyes",
+      "under eye bags"
+    ],
+    "detail:mask": [
+      "mask",
+      "dentist",
+      "doctor",
+      "face mask",
+      "surgical mask",
+      "medical mask"
+    ],
+    "detail:eyepatch": [
+      "eye patch"
+    ],
+    "detail:wrinkles": [
+      "wrinkles",
+      "wrinkled",
+      "wrinkly",
+      "crows feet",
+      "laugh lines"
+    ],
+    "detail:scarf": [
+      "scarf",
+      "neck scarf",
+      "wool scarf",
+      "muffler",
+      "neckerchief"
+    ],
+    "detail:tears": [
+      "sobbing",
+      "crying",
+      "tears",
+      "in tears",
+      "teary"
+    ],
+    "detail:sweat": [
+      "sweating",
+      "sweat",
+      "sweaty",
+      "nervous sweat",
+      "sweat drop"
+    ],
+    "detail:bandaid": [
+      "band aid",
+      "plaster",
+      "cheek bandage"
+    ],
+    "detail:clownNose": [
+      "clown",
+      "clown nose"
+    ],
+    "detail:tie": [
+      "tie",
+      "necktie",
+      "neck tie"
+    ],
+    "detail:sideburns": [
+      "sideburns",
+      "mutton chop sideburns",
+      "mutton chops"
+    ],
+    "detail:acne": [
+      "acne",
+      "pimples",
+      "spots"
+    ],
+    "detail:unibrow": [
+      "unibrow",
+      "monobrow",
+      "one eyebrow",
+      "joined brow"
+    ],
+    "detail:lipstick": [
+      "full lips",
+      "lipstick",
+      "red lips",
+      "lip gloss"
+    ],
+    "detail:necklace": [
+      "necklace",
+      "chain",
+      "rapper",
+      "trapper",
+      "perle",
+      "pearls",
+      "pearl necklace",
+      "chain necklace",
+      "pendant",
+      "bling",
+      "cross necklace",
+      "cross pendant",
+      "crucifix",
+      "coin pendant",
+      "round coin pendant"
+    ],
+    "gender:female": [
+      "feminine",
+      "nun",
+      "girl",
+      "woman",
+      "lady",
+      "female",
+      "she",
+      "her",
+      "witch",
+      "queen",
+      "princess",
+      "grandma",
+      "gal",
+      "girly",
+      "femme",
+      "chick",
+      "cowgirl"
+    ],
+    "hair:wavyLong": [
+      "long wavy hair",
+      "wavy long hair",
+      "surfer",
+      "beach waves",
+      "flowing waves"
+    ],
+    "hair:spaceBuns": [
+      "due chignon",
+      "space buns",
+      "double buns",
+      "two buns",
+      "double space buns"
+    ],
+    "hair:pixie": [
+      "pixie",
+      "pixie cut",
+      "pixie haircut",
+      "side swept pixie"
+    ],
+    "hair:sidePonytail": [
+      "side ponytail",
+      "side pony",
+      "ponytail on the side"
+    ],
+    "hat:pompom": [
+      "pon pon",
+      "pompon",
+      "pom pom",
+      "bobble hat",
+      "pom pom cap"
+    ],
+    "hat:capBack": [
+      "backwards",
+      "backwards cap",
+      "rapper",
+      "trapper",
+      "skater",
+      "backwards hat",
+      "cap backwards",
+      "reversed cap",
+      "snapback worn backward",
+      "snapback worn backwards"
+    ],
+    "hat:turban": [
+      "turban"
+    ],
+    "hat:bunnyEars": [
+      "bunny ears",
+      "bunny",
+      "rabbit ears"
+    ],
+    "hat:foxEars": [
+      "fox ears",
+      "fox"
+    ],
+    "hat:flowers": [
+      "flower crown",
+      "blossom wreath"
+    ],
+    "hat:alice": [
+      "hairband",
+      "alice band"
+    ],
+    "eyewear:pixel": [
+      "thug life",
+      "deal with it",
+      "deal with it glasses",
+      "8 bit glasses",
+      "pixel glasses"
+    ],
+    "eyewear:vr": [
+      "vr",
+      "vr headset",
+      "oculus",
+      "virtual reality headset",
+      "vr goggles"
+    ],
+    "eyewear:visor": [
+      "visor",
+      "cyberpunk",
+      "futuristic visor",
+      "wraparound visor"
+    ],
+    "clothes:dress": [
+      "dress",
+      "gown",
+      "evening dress",
+      "sundress",
+      "frock"
+    ],
+    "clothes:armor": [
+      "armor",
+      "knight",
+      "plate armor",
+      "chainmail",
+      "knight armor",
+      "armour",
+      "plate armour",
+      "body armour",
+      "body armor",
+      "armor breastplate"
+    ],
+    "print:code": [
+      "code",
+      "developer",
+      "dev",
+      "coder",
+      "programmer",
+      "coding shirt",
+      "code print"
+    ],
+    "print:heart": [
+      "heart",
+      "heart print"
+    ],
+    "print:star": [
+      "star",
+      "star print"
+    ],
+    "print:skull": [
+      "skull",
+      "skull print"
+    ],
+    "print:lightning": [
+      "lightning",
+      "bolt",
+      "lightning bolt",
+      "lightning print"
+    ],
+    "detail:headset": [
+      "headset",
+      "gaming headset",
+      "gamer",
+      "streamer",
+      "headset with mic",
+      "microphone headset",
+      "boom mic headset"
+    ],
+    "detail:cyborg": [
+      "robot",
+      "android",
+      "cyborg"
+    ],
+    "detail:ninja": [
+      "ninja",
+      "balaclava",
+      "ninja mask"
+    ],
+    "detail:warpaint": [
+      "war paint",
+      "face paint",
+      "painted cheek stripes"
+    ],
+    "detail:beautyMark": [
+      "beauty mark",
+      "mole",
+      "beauty spot",
+      "cheek beauty mark"
+    ],
+    "detail:choker": [
+      "choker",
+      "ribbon choker"
+    ],
+    "detail:gauges": [
+      "plug",
+      "gauges",
+      "ear gauges",
+      "stretched ears",
+      "stretched lobes",
+      "ear tunnels",
+      "plugs",
+      "pierced",
+      "lots of piercings",
+      "many piercings",
+      "heavily pierced",
+      "flared ear plugs"
+    ],
+    "detail:helix": [
+      "helix",
+      "helix piercing",
+      "ear piercings",
+      "cartilage piercing",
+      "pierced",
+      "lots of piercings",
+      "many piercings",
+      "heavily pierced",
+      "cartilage helix ring",
+      "helix ring"
+    ],
+    "detail:industrial": [
+      "industrial",
+      "piercing industrial",
+      "industrial piercing",
+      "ear bar",
+      "scaffold bar",
+      "scaffold piercing"
+    ],
+    "detail:septum": [
+      "septum",
+      "septum ring",
+      "septum piercing",
+      "bull ring",
+      "punk",
+      "pierced",
+      "lots of piercings",
+      "many piercings",
+      "heavily pierced",
+      "septum horseshoe",
+      "horseshoe septum ring"
+    ],
+    "detail:browPiercing": [
+      "eyebrow piercing",
+      "brow piercing",
+      "pierced eyebrow",
+      "pierced",
+      "lots of piercings",
+      "many piercings",
+      "heavily pierced",
+      "eyebrow barbell"
+    ],
+    "detail:bridgePiercing": [
+      "bridge",
+      "bridge piercing",
+      "bridge barbell"
+    ],
+    "detail:lipRing": [
+      "lip ring",
+      "lip piercing",
+      "snake bites",
+      "snakebites",
+      "pierced",
+      "lots of piercings",
+      "many piercings",
+      "heavily pierced",
+      "lower lip ring"
+    ],
+    "detail:labret": [
+      "labret",
+      "chin piercing",
+      "labret piercing",
+      "lower lip stud",
+      "labret stud"
+    ],
+    "detail:monroe": [
+      "madonna piercing",
+      "monroe piercing",
+      "marilyn piercing"
+    ],
+    "detail:nostril": [
+      "nose stud",
+      "nostril piercing",
+      "nostril stud",
+      "tiny nostril stud"
+    ],
+    "clothes:tracksuit": [
+      "track jacket",
+      "track suit",
+      "zip up",
+      "zip-up",
+      "tracksuit"
+    ],
+    "eyewear:reading": [
+      "reading glasses",
+      "half moon glasses",
+      "half-moon glasses",
+      "granny glasses",
+      "half moon readers",
+      "half moon specs"
+    ],
+    "detail:curlers": [
+      "curlers",
+      "hair curlers",
+      "hair rollers",
+      "rollers"
+    ],
+    "clothes:clerical": [
+      "priest",
+      "vicar",
+      "clerical collar"
+    ],
+    "hat:helmet": [
+      "fireman",
+      "helmet",
+      "hard hat",
+      "builder",
+      "construction worker",
+      "construction helmet",
+      "safety helmet",
+      "construction hardhat",
+      "hardhat"
+    ],
+    "hat:bowler": [
+      "bowler",
+      "bowler hat",
+      "derby hat"
+    ],
+    "hat:graduation": [
+      "graduation cap",
+      "mortarboard",
+      "graduate",
+      "graduation"
+    ],
+    "hat:veil": [
+      "nun",
+      "nun veil"
+    ],
+    "detail:braces": [
+      "braces",
+      "dental braces"
+    ],
+    "detail:backpack": [
+      "rucksack",
+      "school bag",
+      "student",
+      "backpack",
+      "knapsack",
+      "shoulder straps",
+      "visible shoulder straps"
+    ],
+    "detail:stethoscope": [
+      "stethoscope",
+      "doctor",
+      "stethoscope around the neck"
+    ],
+    "detail:hoops": [
+      "hoop earrings",
+      "hoops",
+      "big hoops"
+    ],
+    "detail:bow": [
+      "bow",
+      "hair bow"
+    ],
+    "detail:hairclip": [
+      "scrunchie",
+      "hair clip",
+      "barrette"
+    ],
+    "detail:cape": [
+      "cape",
+      "cloak",
+      "vampire",
+      "superhero cape",
+      "shoulder cape"
+    ],
+    "detail:lashes": [
+      "lashes",
+      "eyelashes",
+      "long lashes",
+      "long eyelashes",
+      "mascara",
+      "butterfly lashes"
+    ],
+    "detail:eyeshadow": [
+      "make up",
+      "goth",
+      "eyeshadow",
+      "eye shadow",
+      "smoky eyes",
+      "liner",
+      "eye liner",
+      "shimmery eyeshadow"
+    ],
+    "detail:fangs": [
+      "fangs",
+      "vampire teeth",
+      "vampire",
+      "sharp teeth"
+    ],
+    "skin:green": [
+      "goblin",
+      "green skin",
+      "alien",
+      "orc",
+      "green skinned"
+    ],
+    "skin:blue": [
+      "blue skin"
+    ],
+    "skin:grey": [
+      "zombie",
+      "grey skin",
+      "gray skin",
+      "ashen skin"
+    ],
+    "skin:purple": [
+      "purple skin"
+    ],
+    "eyewear:eyepatch": [
+      "pirate",
+      "pirate patch"
+    ],
+    "hairColor:white": [
+      "santa",
+      "scientist"
+    ],
+    "hatColor:black": [
+      "doomer"
+    ],
+    "clothesColor:black": [
+      "doomer",
+      "rocker",
+      "goth"
+    ],
+    "detail:gum": [
+      "bubble gum",
+      "gum",
+      "chewing gum"
+    ],
+    "detail:lollipop": [
+      "lollipop",
+      "lolly"
+    ],
+    "detail:toothpick": [
+      "toothpick",
+      "straw in mouth"
+    ],
+    "detail:rose": [
+      "rose in mouth",
+      "rose between teeth"
+    ],
+    "detail:bowtie": [
+      "papillon",
+      "bow tie",
+      "waiter",
+      "waitress",
+      "bow-tie",
+      "dickie bow"
+    ],
+    "detail:badge": [
+      "badge",
+      "lanyard",
+      "id badge",
+      "developer",
+      "dev",
+      "programmer"
+    ],
+    "detail:pencilEar": [
+      "pencil behind ear",
+      "pencil",
+      "pencil tucked behind one ear"
+    ],
+    "detail:flowerEar": [
+      "flower behind ear",
+      "flower in hair"
+    ],
+    "detail:sunglassesHead": [
+      "sunglasses on head",
+      "shades on head"
+    ],
+    "detail:earbuds": [
+      "earbuds",
+      "earphones",
+      "in ear headphones"
+    ],
+    "face:heart": [
+      "heart shaped face",
+      "heart face"
+    ],
+    "face:wide": [
+      "testone",
+      "wide face",
+      "broad face",
+      "wide set cheeks",
+      "broad jaw"
+    ],
+    "brows:raised": [
+      "raised eyebrow",
+      "eyebrow raised",
+      "suspicious",
+      "skeptical",
+      "one eyebrow raised",
+      "sceptical",
+      "lifted brow",
+      "arched brows"
+    ],
+    "detail:doubleChin": [
+      "double chin"
+    ],
+    "detail:dimples": [
+      "dimples",
+      "dimple",
+      "dimpled",
+      "cheek dimples",
+      "cheek dimple",
+      "cheek cleft"
+    ],
+    "detail:cheekbones": [
+      "cheekbones",
+      "high cheekbones"
+    ],
+    "clothesColor:blue": [
+      "cop",
+      "police"
+    ],
+    "hatColor:blue": [
+      "cop",
+      "police"
+    ],
+    "hairColor:black": [
+      "goth"
+    ],
+    "hairColor:blond": [
+      "surfer"
+    ],
+    "clothesColor:green": [
+      "soldier"
+    ],
+    "hatColor:yellow": [
+      "farmer"
+    ],
+    "clothesColor:red": [
+      "lumberjack",
+      "woodcutter"
+    ],
+    "hairColor:grey": [
+      "grandma"
+    ],
+    "hair:mullet": [
+      "mullet",
+      "business in front party in the back",
+      "mullet haircut",
+      "business in the front",
+      "shaggy mullet"
+    ],
+    "hair:middlePart": [
+      "middle part",
+      "curtain bangs",
+      "curtains",
+      "center part",
+      "centre part",
+      "middle parting",
+      "parted in the middle",
+      "curtain part",
+      "curtain hair"
+    ],
+    "hair:shag": [
+      "wolf cut",
+      "shag",
+      "shaggy",
+      "shaggy hair",
+      "layered hair",
+      "razor shag"
+    ],
+    "hair:highPonytail": [
+      "high ponytail",
+      "high pony",
+      "high set pony"
+    ],
+    "hair:afroPuffs": [
+      "afro puffs",
+      "puffs",
+      "afro buns",
+      "twin afro puffs"
+    ],
+    "hat:bucket": [
+      "bucket hat",
+      "bucket",
+      "fishing hat",
+      "fisherman hat",
+      "bucket cap",
+      "fisherman bucket hat"
+    ],
+    "hat:party": [
+      "party hat",
+      "birthday",
+      "birthday hat",
+      "party cone",
+      "paper party cone"
+    ],
+    "hat:fedora": [
+      "fedora",
+      "trilby",
+      "italian hat",
+      "gangster hat",
+      "detective hat",
+      "noir hat"
+    ],
+    "eyewear:hearts": [
+      "heart glasses",
+      "heart shaped glasses",
+      "heart sunglasses",
+      "love glasses",
+      "heart shaped sunglasses"
+    ],
+    "facial:handlebar": [
+      "curly mustache",
+      "handlebar mustache",
+      "handlebar moustache",
+      "curled handlebar mustache",
+      "curled handlebar moustache"
+    ],
+    "clothes:overalls": [
+      "overalls",
+      "dungarees",
+      "mechanic",
+      "bib overalls",
+      "bib dungarees"
+    ],
+    "clothes:puffer": [
+      "puffer",
+      "puffer jacket",
+      "down jacket",
+      "puffy jacket",
+      "quilted jacket",
+      "puffer coat"
+    ],
+    "clothes:polo": [
+      "polo",
+      "polo shirt"
+    ],
+    "clothes:vest": [
+      "vest",
+      "waistcoat",
+      "gilet",
+      "padded gilet",
+      "work vest"
+    ],
+    "clothes:apron": [
+      "apron",
+      "chef",
+      "baker",
+      "kitchen apron",
+      "barista apron",
+      "work apron",
+      "shop apron"
+    ],
+    "clothes:varsity": [
+      "college jacket",
+      "varsity",
+      "varsity jacket",
+      "baseball jacket",
+      "letterman coat",
+      "two tone varsity jacket"
+    ],
+    "clothes:openShirt": [
+      "open shirt",
+      "unbuttoned shirt",
+      "open collar shirt"
+    ],
+    "eyewear:slim": [
+      "matrix glasses",
+      "matrix sunglasses",
+      "matrix",
+      "slim sunglasses",
+      "narrow sunglasses",
+      "tiny sunglasses",
+      "micro shades"
+    ],
+    "age:child": [
+      "kid",
+      "child",
+      "little boy",
+      "little girl",
+      "little kid",
+      "toddler",
+      "young kid",
+      "tween"
+    ],
+    "age:young": [
+      "young",
+      "teen",
+      "youth",
+      "girl",
+      "boy",
+      "young adult",
+      "youngster"
+    ],
+    "age:old": [
+      "old",
+      "elderly",
+      "grandpa",
+      "grandma",
+      "old man",
+      "senior",
+      "aged",
+      "elderly man",
+      "pensioner",
+      "boomer"
+    ],
+    "skin:dark": [
+      "dark skin",
+      "dark skinned",
+      "black skin",
+      "brown skin",
+      "dark complexion",
+      "darker skin",
+      "very dark skin",
+      "deep skin",
+      "warm brown complexion"
+    ],
+    "skin:tan": [
+      "tan",
+      "tanned",
+      "surfer",
+      "tan skin",
+      "suntanned",
+      "light brown skin",
+      "medium skin",
+      "medium brown skin",
+      "warm tan skin"
+    ],
+    "skin:pale": [
+      "pale",
+      "fair skin",
+      "pale skin",
+      "vampire",
+      "goth",
+      "pale skinned",
+      "very pale",
+      "light skin",
+      "ghostly",
+      "fair",
+      "fair skinned",
+      "lighter skin",
+      "very light skin",
+      "porcelain skin",
+      "porcelain complexion",
+      "fair complexion"
+    ],
+    "clothes:turtleneck": [
+      "turtleneck",
+      "turtle neck",
+      "roll neck",
+      "polo neck",
+      "rollneck",
+      "roll neck top",
+      "mock neck sweater",
+      "high neck jumper"
+    ],
+    "hat:hijab": [
+      "hijab",
+      "headscarf hijab"
+    ],
+    "detail:earmuffs": [
+      "earmuffs",
+      "ear muffs",
+      "ear warmers",
+      "ear defenders"
+    ],
+    "hair:lob": [
+      "lob",
+      "long bob",
+      "shoulder length lob",
+      "shoulder length bob",
+      "medium length bob",
+      "medium length hair"
+    ],
+    "hair:lowPonytail": [
+      "low ponytail",
+      "low pony",
+      "nape ponytail"
+    ],
+    "hair:bantuKnots": [
+      "bantu knots",
+      "bantu knot hairstyle"
+    ],
+    "hair:cornrows": [
+      "cornrows",
+      "cornrow braids",
+      "straight back cornrows",
+      "straight back cornrow braids"
+    ],
+    "hair:widowsPeak": [
+      "widow's peak",
+      "widows peak",
+      "widow's peak hairline"
+    ],
+    "face:oval": [
+      "oval face",
+      "egg shaped face"
+    ],
+    "nose:hook": [
+      "hooked nose",
+      "hook nose",
+      "aquiline nose",
+      "roman nose",
+      "bent nose",
+      "bend in the nose"
+    ],
+    "mood:excited": [
+      "wide awake",
+      "wide awake expression",
+      "jittery wide awake expression",
+      "hyper",
+      "wired"
+    ],
+    "mood:worried": [
+      "worried",
+      "nervous look",
+      "worried look",
+      "nervous expression",
+      "worried expression"
+    ],
+    "facial:soulPatch": [
+      "soul patch",
+      "chin patch"
+    ],
+    "facial:pencilMoustache": [
+      "pencil moustache",
+      "pencil mustache",
+      "pencil thin moustache"
+    ],
+    "facial:braidedBeard": [
+      "braided beard",
+      "plaited beard",
+      "long plaited beard"
+    ],
+    "eyewear:catEye": [
+      "cat eye glasses",
+      "cat eye frames",
+      "cat eye spectacles",
+      "cat eye sunglasses"
+    ],
+    "eyewear:halfRim": [
+      "browline glasses",
+      "half rim glasses",
+      "half rim frames",
+      "retro half rim frames",
+      "semi rimless glasses"
+    ],
+    "eyewear:aviators": [
+      "aviator",
+      "aviators",
+      "aviator sunglasses",
+      "aviator shades",
+      "aviator frames"
+    ],
+    "eyewear:goggles": [
+      "goggles",
+      "ski goggles",
+      "snow goggles"
+    ],
+    "hat:trapper": [
+      "trapper hat",
+      "trapper cap",
+      "earflap hat",
+      "ear flap hat",
+      "ushanka",
+      "shearling hat",
+      "fur lined ushanka"
+    ],
+    "hat:spaceHelmet": [
+      "space helmet",
+      "astronaut helmet",
+      "cosmonaut helmet",
+      "astronaut"
+    ],
+    "hat:bikeHelmet": [
+      "bike helmet",
+      "bicycle helmet",
+      "cycle helmet",
+      "cycling helmet",
+      "road cycling helmet"
+    ],
+    "hat:crestedHelmet": [
+      "crested helmet",
+      "spartan helmet",
+      "spartan",
+      "plumed helmet"
+    ],
+    "hat:sunHat": [
+      "sun hat",
+      "sunhat",
+      "floppy sun hat",
+      "wide brimmed sunhat",
+      "wide brimmed sun hat",
+      "floppy straw hat"
+    ],
+    "hat:rainHat": [
+      "rain hat",
+      "fisherman's rain hat",
+      "sou'wester",
+      "souwester",
+      "rain bonnet"
+    ],
+    "hat:flatCap": [
+      "flat cap",
+      "newsboy cap",
+      "driving cap",
+      "paperboy cap",
+      "ivy cap"
+    ],
+    "hat:boater": [
+      "boater",
+      "straw boater",
+      "skimmer hat"
+    ],
+    "hat:bearEars": [
+      "bear",
+      "bear ears",
+      "bear ear headband",
+      "teddy bear ears"
+    ],
+    "hat:antlers": [
+      "antlers",
+      "antler headband",
+      "antler crown",
+      "deer antlers"
+    ],
+    "hat:kippah": [
+      "kippah",
+      "yarmulke",
+      "kipa"
+    ],
+    "hat:sailor": [
+      "sailor cap",
+      "sailor hat",
+      "naval sailor cap"
+    ],
+    "clothes:spaceSuit": [
+      "spacesuit",
+      "space suit",
+      "astronaut suit",
+      "pressure suit",
+      "eva suit",
+      "astronaut"
+    ],
+    "clothes:cardigan": [
+      "cardigan",
+      "v neck cardigan",
+      "button front cardigan",
+      "button up cardigan"
+    ],
+    "clothes:raincoat": [
+      "raincoat",
+      "rain coat",
+      "rain jacket",
+      "rain slicker",
+      "fisherman's raincoat",
+      "waterproof coat"
+    ],
+    "clothes:windbreaker": [
+      "windbreaker",
+      "windcheater",
+      "shell jacket",
+      "anorak shell",
+      "cycling windbreaker",
+      "zip up shell"
+    ],
+    "clothes:scrubs": [
+      "scrub top",
+      "nursing scrub shirt",
+      "clinical scrub top",
+      "medical scrubs"
+    ],
+    "clothes:gown": [
+      "graduation gown",
+      "academic gown",
+      "commencement robe"
+    ],
+    "pattern:argyle": [
+      "argyle",
+      "diamond knit",
+      "argyle knit"
+    ],
+    "pattern:checkers": [
+      "checkerboard",
+      "chequerboard",
+      "checkerboard print"
+    ],
+    "pattern:fishnet": [
+      "fishnet",
+      "mesh",
+      "diamond mesh"
+    ],
+    "pattern:camo": [
+      "camouflage",
+      "camo",
+      "camouflage print"
+    ],
+    "detail:pearlStuds": [
+      "pearl studs",
+      "pearl ear studs",
+      "pearl stud earrings"
+    ],
+    "detail:pearlNecklace": [
+      "string of pearls",
+      "string of ivory pearls",
+      "pearl strand",
+      "pearl necklace",
+      "pearl choker"
+    ],
+    "detail:camera": [
+      "camera",
+      "neck camera",
+      "camera on a neck strap",
+      "neck strap camera",
+      "vintage camera",
+      "vintage camera on a neck strap"
+    ],
+    "detail:lanyard": [
+      "lanyard",
+      "staff lanyard",
+      "id lanyard",
+      "badge lanyard"
+    ],
+    "detail:headlamp": [
+      "headlamp",
+      "head lamp",
+      "head torch",
+      "head torch on the forehead"
+    ],
+    "detail:hearingAid": [
+      "hearing aid",
+      "hearing aids",
+      "behind the ear hearing aids"
+    ],
+    "detail:locket": [
+      "locket",
+      "heart locket",
+      "gold heart locket"
+    ],
+    "detail:boloTie": [
+      "bolo tie",
+      "bolo",
+      "western string tie"
+    ],
+    "detail:blush": [
+      "blush",
+      "blushing",
+      "rosy cheeks",
+      "rouged cheeks",
+      "flushed cheeks",
+      "rosy complexion"
+    ],
+    "detail:sunburn": [
+      "sunburn",
+      "sunburnt",
+      "sunburned",
+      "sunburnt nose",
+      "sunburned cheeks",
+      "rosy nose",
+      "sun burnt"
+    ],
+    "detail:chinCleft": [
+      "cleft chin",
+      "chin dimple",
+      "dimpled chin",
+      "chin cleft",
+      "little chin dimple"
+    ],
+    "detail:faceStars": [
+      "face star stickers",
+      "cheek star decals",
+      "star stickers on cheeks"
+    ],
+    "skin:olive": [
+      "olive skin",
+      "olive complexion",
+      "pale olive complexion",
+      "olive skinned"
+    ],
+    "skin:deep": [
+      "deep brown skin",
+      "deep brown complexion",
+      "deeply pigmented skin",
+      "deep brown skin tone"
+    ],
+    "clothes:sailorShirt": [
+      "sailor shirt",
+      "sailor blouse",
+      "sailor collar shirt"
+    ],
+    "pattern:pinstripes": [
+      "pinstripes",
+      "pinstriped",
+      "pinstripe",
+      "pin striped"
+    ],
+    "detail:lapelPin": [
+      "enamel pin",
+      "lapel pin",
+      "star pin"
+    ],
+    "detail:nameTag": [
+      "name tag",
+      "name badge",
+      "brass name badge"
+    ]
+  },
+  "colors": {
+    "black": [
+      "black",
+      "dark",
+      "corvine",
+      "jet black",
+      "charcoal",
+      "soot black",
+      "ink black",
+      "sable",
+      "raven",
+      "pitch black",
+      "midnight black"
+    ],
+    "white": [
+      "white",
+      "platinum",
+      "ivory",
+      "cream",
+      "snow white",
+      "pearl white",
+      "ice white",
+      "salt white",
+      "frost white"
+    ],
+    "grey": [
+      "grey",
+      "gray",
+      "silver",
+      "ash grey",
+      "ash gray",
+      "stone gray",
+      "smoke gray",
+      "slate gray",
+      "slate grey",
+      "pewter"
+    ],
+    "brown": [
+      "brown",
+      "beige",
+      "camel",
+      "oatmeal",
+      "sand colored",
+      "sand coloured",
+      "cocoa brown",
+      "chocolate",
+      "coffee brown",
+      "chestnut",
+      "cinnamon",
+      "walnut",
+      "bronze",
+      "caramel",
+      "ash brown"
+    ],
+    "red": [
+      "red",
+      "bordeaux",
+      "maroon",
+      "burgundy",
+      "crimson",
+      "berry red",
+      "wine red",
+      "scarlet",
+      "ruby",
+      "garnet",
+      "cranberry",
+      "oxblood",
+      "auburn",
+      "cherry red",
+      "copper red"
+    ],
+    "orange": [
+      "orange",
+      "copper",
+      "rust",
+      "rust colored",
+      "rust coloured",
+      "terracotta",
+      "russet",
+      "peach",
+      "fluorescent orange",
+      "pumpkin orange"
+    ],
+    "yellow": [
+      "yellow",
+      "gold",
+      "golden",
+      "mustard",
+      "saffron",
+      "lemon yellow",
+      "butter yellow",
+      "wheat yellow",
+      "pale yellow"
+    ],
+    "green": [
+      "green",
+      "khaki",
+      "olive",
+      "army green",
+      "neon green",
+      "emerald",
+      "forest green",
+      "moss green",
+      "lime",
+      "chartreuse",
+      "sage green",
+      "dark green",
+      "mint green",
+      "mint",
+      "leaf green",
+      "vivid green",
+      "grey green",
+      "sea glass",
+      "seafoam",
+      "bottle green",
+      "bright green"
+    ],
+    "blue": [
+      "celeste",
+      "blue",
+      "denim",
+      "di jeans",
+      "navy",
+      "turquoise",
+      "teal",
+      "cyan",
+      "slate blue",
+      "powder blue",
+      "cobalt",
+      "cerulean",
+      "cornflower blue",
+      "midnight blue",
+      "ocean blue",
+      "dark blue",
+      "denim blue",
+      "indigo",
+      "ice blue",
+      "periwinkle"
+    ],
+    "purple": [
+      "purple",
+      "lilac",
+      "lavender",
+      "violet",
+      "plum",
+      "aubergine",
+      "amethyst",
+      "mulberry",
+      "grape purple"
+    ],
+    "pink": [
+      "pink",
+      "magenta",
+      "fuchsia",
+      "rosa shocking",
+      "neon pink",
+      "hot pink",
+      "blush pink",
+      "shell pink",
+      "rose pink",
+      "coral",
+      "candy pink",
+      "raspberry",
+      "bubblegum pink",
+      "muted pink"
+    ],
+    "hazel": [
+      "hazel"
+    ],
+    "amber": [
+      "amber",
+      "honey amber",
+      "honey colored",
+      "honey coloured",
+      "bright amber"
+    ]
+  },
+  "hairOnlyColors": {
+    "blond": [
+      "blond",
+      "blonde",
+      "platinum blonde",
+      "fair hair",
+      "fair haired",
+      "ice blond",
+      "sandy blond",
+      "ash blond"
+    ],
+    "brown": [
+      "brunette"
+    ],
+    "red": [
+      "ginger",
+      "redhead"
+    ]
+  },
+  "colorNouns": {
+    "background": [
+      "background",
+      "bg",
+      "backdrop"
+    ],
+    "hair": [
+      "hair",
+      "haircut"
+    ],
+    "eye": [
+      "eyes",
+      "eyed",
+      "iris",
+      "irises"
+    ],
+    "clothes": [
+      "dressed",
+      "clothes",
+      "outfit",
+      "top",
+      "dress",
+      "skirt"
+    ],
+    "skin": [
+      "skin",
+      "skin tone",
+      "skin color",
+      "skin colour",
+      "skinned",
+      "complexion",
+      "skincolor"
+    ]
+  },
+  "contextual": {
+    "hair:long": [
+      "long"
+    ],
+    "clothes:openShirt": [
+      "open",
+      "unbuttoned"
+    ],
+    "hair:short": [
+      "short",
+      "cropped"
+    ],
+    "eyes:big": [
+      "big",
+      "large",
+      "oversized"
+    ],
+    "eyes:small": [
+      "small",
+      "tiny"
+    ],
+    "eyes:almond": [
+      "almond shaped"
+    ],
+    "eyes:round": [
+      "round"
+    ],
+    "facial:longBeard": [
+      "long"
+    ]
+  },
+  "ignored": [
+    "describble",
+    "phraseface",
+    "yapsona",
+    "wordtrait",
+    "mad scientist",
+    "man",
+    "guy",
+    "male",
+    "dude",
+    "person",
+    "from",
+    "than",
+    "sorry",
+    "huge",
+    "enormous",
+    "bigger",
+    "dad",
+    "extremely",
+    "three",
+    "outside",
+    "thick",
+    "wearing",
+    "slightly",
+    "fairly",
+    "regular",
+    "real",
+    "both",
+    "around",
+    "that",
+    "while",
+    "full",
+    "half",
+    "chin",
+    "ears",
+    "cheeks",
+    "teeth",
+    "nose",
+    "nouse",
+    "adult",
+    "human",
+    "body",
+    "beautiful",
+    "pretty",
+    "ugly",
+    "soft",
+    "smooth skin",
+    "realistic"
+  ],
+  "negations": [
+    "no",
+    "non",
+    "without",
+    "not",
+    "never",
+    "remove",
+    "drop"
+  ],
+  "scopeBreakers": [
+    "but",
+    "however",
+    "only"
+  ]
+}

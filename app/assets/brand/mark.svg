@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vignette">
+  <path d="M15 3h27l16 16v34a8 8 0 0 1-8 8H15a8 8 0 0 1-8-8V11a8 8 0 0 1 8-8Z" fill="#f6efe1"/>
+  <path d="M42 3v12a4 4 0 0 0 4 4h12Z" fill="#e8c15a"/>
+  <path d="M19 53v-9c-3.7-3.5-5.6-8.1-5.2-13.3C14.4 22.3 21.5 16 30 16c7.8 0 14 5.6 14 13.5l5.6 6.8a1.6 1.6 0 0 1-1.2 2.7H44v3a7 7 0 0 1-7 7h-5v4Z" fill="#1b1b1f"/>
+  <circle cx="36.5" cy="30" r="2.2" fill="#f6efe1"/>
+</svg>

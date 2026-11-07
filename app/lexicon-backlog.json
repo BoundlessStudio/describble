@@ -1,0 +1,83 @@
+{
+  "about": "Words people wrote that Describble does not understand yet. 'todo' words wait for a synonym or a new piece; 'skip' words are left out on purpose. A test keeps this list honest: when a word gets understood, remove it from here.",
+  "words": [
+    {
+      "word": "neon",
+      "lang": "en",
+      "status": "todo",
+      "note": "colour with no obvious hue on its own"
+    },
+    {
+      "word": "drum",
+      "lang": "en",
+      "status": "todo",
+      "note": "needs drumsticks or a drum, maybe too big for a portrait"
+    },
+    {
+      "word": "multicolor",
+      "lang": "en",
+      "status": "todo",
+      "note": "rainbow or two-tone hair"
+    },
+    {
+      "word": "lightsaber",
+      "lang": "en",
+      "status": "skip",
+      "note": "belongs to an existing franchise"
+    },
+    {
+      "word": "sith",
+      "lang": "en",
+      "status": "skip",
+      "note": "belongs to an existing franchise"
+    },
+    {
+      "word": "naked",
+      "lang": "en",
+      "status": "skip",
+      "note": "not drawn on purpose"
+    },
+    {
+      "word": "sexy",
+      "lang": "en",
+      "status": "skip",
+      "note": "not drawn on purpose"
+    },
+    {
+      "word": "lips",
+      "lang": "en",
+      "status": "todo",
+      "note": "needs a full-lips mouth variant"
+    },
+    {
+      "word": "medium",
+      "lang": "en",
+      "status": "todo",
+      "note": "needs a medium-length hair piece"
+    },
+    {
+      "word": "forehead",
+      "lang": "en",
+      "status": "todo",
+      "note": "big forehead needs a face variant"
+    },
+    {
+      "word": "beach",
+      "lang": "en",
+      "status": "todo",
+      "note": "background scenes"
+    },
+    {
+      "word": "athletic",
+      "lang": "en",
+      "status": "todo",
+      "note": "needs a body-build piece (broad shoulders)"
+    },
+    {
+      "word": "toned",
+      "lang": "en",
+      "status": "todo",
+      "note": "needs a body-build piece (broad shoulders)"
+    }
+  ]
+}
